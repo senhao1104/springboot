@@ -218,3 +218,21 @@ Spring Boot的配置类，标注在某个类上，表示这是一个Spring Boot�
 
 > @EnableAutoConfiguration：
 开启自动配置功能；以前我们需要配置的东西，Spring Boot帮我们自动配置；@EnableAutoConfiguration告诉SpringBoot开启自动配置功能；这样自动配置才能生效；
+
+## Eclipse快速创建Spring Boot项目
+
+IDE都支持使用Spring的项目创建向导快速创建一个Spring Boot项目；
+
+选择我们需要的模块；向导会联网创建Spring Boot项目；
+
+### 1.安装STS插件
+
+eclipse —> help —> Eclipse Marketplace...
+
+<img sec = "https://github.com/senhao1104/springboot/blob/master/99-images/2020-02-04_19-30-23.jpg" width = "50%">
+
+### 2.新建spring boot项目
+
+File —> New —> Project...
+
+<img sec = "https://github.com/senhao1104/springboot/blob/master/99-images/2020-02-04_19-34-41.jpg" width = "50%">
