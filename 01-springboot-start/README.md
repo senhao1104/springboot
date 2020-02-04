@@ -229,10 +229,10 @@ IDE都支持使用Spring的项目创建向导快速创建一个Spring Boot项目
 
 eclipse —> help —> Eclipse Marketplace...
 
-<img sec = "https://github.com/senhao1104/springboot/blob/master/99-images/2020-02-04_19-30-23.jpg" width = "50%">
+<img src = "https://github.com/senhao1104/springboot/blob/master/99-images/2020-02-04_19-30-23.jpg" width = "50%">
 
 ### 2.新建spring boot项目
 
 File —> New —> Project...
 
-<img sec = "https://github.com/senhao1104/springboot/blob/master/99-images/2020-02-04_19-34-41.jpg" width = "50%">
+<img src = "https://github.com/senhao1104/springboot/blob/master/99-images/2020-02-04_19-34-41.jpg" width = "50%">
