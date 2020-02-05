@@ -1,8 +1,4 @@
-# 二、自动配置
-
-[配置文件属性参照](https://docs.spring.io/spring-boot/docs/2.2.1.RELEASE/reference/htmlsingle/#common-application-properties)
-
-## 自动配置原理
+# 自动配置原理
 
 SpringBoot启动的时候加载主配置类，开启了自动配置功能;
 
@@ -11,7 +7,9 @@ SpringBoot启动的时候加载主配置类，开启了自动配置功能;
     @EnableAutoConfiguration
 ```
 
-### EnableAutoConfiguration 作用
+[配置文件属性参照](https://docs.spring.io/spring-boot/docs/2.2.1.RELEASE/reference/htmlsingle/#common-application-properties)
+
+## @EnableAutoConfiguration 作用
 
 - 利用EnableAutoConfigurationImportSelector给容器中导入一些组件；
 
@@ -35,7 +33,7 @@ List<String> configurations = getCandidateConfigurations(annotationMetadata,attr
 
 - 每一个自动配置类进行自动配置功能；
 
-#### 以HttpEncodingAutoConfiguration（Http编码自动配置）为例：
+### 以HttpEncodingAutoConfiguration（Http编码自动配置）为例：
 
 ```java
 package org.springframework.boot.autoconfigure.web.servlet;
@@ -115,7 +113,7 @@ public class HttpProperties {
 
 ```
 
-### 总结
+## 总结
 
 - SpringBoot启动会加载大量的自动配置类；
 - 看我们需要的功能有没有SpringBoot默认写好的自动配置类；
@@ -126,7 +124,7 @@ public class HttpProperties {
 
 `xxxxProperties`:封装配置文件中相关属性;
 
-#### @Conditional派生注解
+### @Conditional派生注解
 
 作用：必须是@Conditional指定的条件成立，才给容器中添加组件，配置配里面的所有内容才生效；
 
