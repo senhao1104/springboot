@@ -29,7 +29,7 @@ List<String> configurations = getCandidateConfigurations(annotationMetadata,attr
 
 > 将类路径下 `META-INF/spring.factories` 里面配置的所有EnableAutoConfiguration的值都加入到了容器中;
 
-<img src = "https://github.com/senhao1104/springboot/blob/master/99-images/2020-02-05_18-02-40.jpg" width = "50%">
+<img src = "https://github.com/senhao1104/springboot/blob/master/99-images/2020-02-05_18-02-40.jpg" width = "80%">
 
 - 每一个这样的 `xxxAutoConfiguration` 类都是容器中的一个组件，都加入到容器中；用它们来做自动配置；
 
